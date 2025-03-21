@@ -5,7 +5,7 @@ const moment = require("moment");
 // Thay TOKEN bằng mã token của bạn
 const token = "7631654175:AAFshUy_QyaigTEnJoDX1FOcVwNmeTNM3YU";
 const bot = new TelegramBot(token, { polling: true });
-
+//update
 // Khi có người gửi lệnh /start
 bot.onText(/\/start/, (msg) => {
     const chatId = msg.chat.id;
